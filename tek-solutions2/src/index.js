@@ -22,7 +22,7 @@ const { reconstruirTablaGuardarDatosApi, compararApiConDatosAlmacenados } = requ
 setInterval(async () => {
     await reconstruirTablaGuardarDatosApi()
     // await compararApiConDatosAlmacenados()
-}, 600000);
+}, 700000);
 
 
 async function main() {
